@@ -5,6 +5,7 @@ function scuberGreetingForFeet(distance) {
   if (distance >= 199 && distance <= 400){
     return "This one is on me!";
   }
+
   if (distance >= 2001) { 
     return "I will gladly take your thirty bucks.";
   }
@@ -14,10 +15,6 @@ function scuberGreetingForFeet(distance) {
 }
 
 
-function ternaryCheckCity (city) {
-   if (city === 'NYC') ? true : false;
-}rn 
-}
     
 
   // describe('ternaryCheckCity()', function () {
@@ -41,3 +38,7 @@ function ternaryCheckCity (city) {
 
   //   it('should return "Bye." if anything else', function () {
   //     expect(switchOnCharmFromTip('thanks for everything')).to.equal('Bye.');
+=======
+ 
+}
+>>>>>>> 17c439041a49625a4c290e437a6cadc4d214bb1e
